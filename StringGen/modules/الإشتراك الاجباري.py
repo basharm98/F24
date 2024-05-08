@@ -14,7 +14,7 @@ async def must_join_channel(app: Client, msg: Message):
             await app.get_chat_member(Muntazer, msg.from_user.id)
         except UserNotParticipant:
             if Muntazer.isalpha():
-                link = "https://t.me/k_r_r3" + Muntazer
+                link = "https://t.me/czzwc" + Muntazer
             else:
                 chat_info = await app.get_chat(Muntazer)
                 link = chat_info.invite_link
